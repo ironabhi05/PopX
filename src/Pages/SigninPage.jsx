@@ -32,7 +32,7 @@ const SigninPage = () => {
       company: "",
       agency: "",
     });
-    navigate("/user-dashboard");
+    navigate("/dashboard");
   };
   return (
     <Container>

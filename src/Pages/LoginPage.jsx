@@ -29,7 +29,7 @@ const Login = () => {
         email: "",
         password: "",
       });
-      navigate("/user-dashboard");
+      navigate("/dashboard");
     } else {
       setError("invalid User or password");
     }
